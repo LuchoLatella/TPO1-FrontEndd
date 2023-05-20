@@ -7,13 +7,13 @@ de el navegador */
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
 .header {
-    background: rgb(177, 184, 243);
-    color: white;
+    background: rgb(120, 121, 129);
+    color: rgb(117, 110, 110);
     height: 80px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -21,17 +21,17 @@ html {
 }
 
 .logo {
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .logo a {
-    color: white;
-    text-decoration: none;
+    color: rgb(63, 56, 56);
+    text-decoration: underline, rgb(155, 148, 198);
 }
 
 .navbar {
-    background: rgb(13, 6, 117);
-    color: white;
+    background: rgb(68, 67, 75);
+    color: rgb(165, 159, 159);
     width: 85vw;
     margin-left: auto;
     margin-right: auto;
@@ -50,12 +50,12 @@ html {
     text-decoration: none;
     display: block;
     padding: 15px;
-    color: white;
+    color: rgb(172, 169, 169);
 }
 
 .navbar ul li a:hover {
-    background: white;
-    color: rgb(13, 6, 117)
+    background: rgb(110, 106, 106);
+    color: rgb(162, 162, 167)
 }
 
 .banner-top {
@@ -93,7 +93,7 @@ html {
 
 .footer {
     margin-top: 25px;
-    background: #fff;
+    background: #696464;
     display: flex;
     justify-content: space-around;
 }
@@ -104,8 +104,8 @@ html {
 
 .data {
     margin-top: 10px;
-    background: rgb(154, 185, 241);
-    color: #000;
+    background: rgb(164, 167, 169);
+    color: #4a4545;
 }
 
 .map {
@@ -141,7 +141,7 @@ html {
 
 @media screen and (min-width: 990px) and (max-width: 1900px) {
     .body {
-        background: rgb(42, 170, 221);
+        background: rgb(163, 165, 165);
     }
 }
 
