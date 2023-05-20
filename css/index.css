@@ -13,7 +13,7 @@ html {
 
 .header {
     background: rgb(100, 107, 171);
-    color: rgb(72, 61, 171);
+    color: rgb(12, 11, 15);
     height: 80px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -55,7 +55,7 @@ html {
 
 .navbar ul li a:hover {
     background: white;
-    color: rgb(13, 6, 117)
+    color: rgb(22, 20, 48)
 }
 
 .banner-top {
@@ -104,7 +104,7 @@ html {
 
 .data {
     margin-top: 10px;
-    background: rgb(154, 185, 241);
+    background: rgb(140, 155, 182);
     color: #000;
 }
 
@@ -141,7 +141,7 @@ html {
 
 @media screen and (min-width: 990px) and (max-width: 1900px) {
     .body {
-        background: rgb(42, 170, 221);
+        background: rgb(45, 85, 98);
     }
 }
 
