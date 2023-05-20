@@ -14,10 +14,11 @@ html {
 .header {
     background: rgb(120, 121, 129);
     color: rgb(117, 110, 110);
-    height: 80px;
-    margin-bottom: 10px;
+    height: 65px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 }
 
 .logo {
@@ -59,7 +60,7 @@ html {
 }
 
 .banner-top {
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -76,7 +77,7 @@ html {
 }
 
 #contenedor img {
-    width: 100%;
+    width: 90%;
 }
 
 .primero {
@@ -99,7 +100,8 @@ html {
 }
 
 .footer ul {
-    list-style: none;
+    list-style-type: circle;
+    justify-content: space-around;
 }
 
 .data {
