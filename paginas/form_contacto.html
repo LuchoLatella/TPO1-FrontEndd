@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto con nosotros</title>
+</head>
+
+<body>
+    <div>
+    <h1>Formulario de Contacto - Grupo 15</h1>
+    <form action="show_data.html" target="_blank">
+        <label for="firstname">Nombre: </label><input size="50" type="text" name="firstname"
+            placeholder="Ingrese su nombre aqui..."> <br><br>
+        <label for="street">Direccion:</label><input size="50" type="text" name="address"
+            placeholder="Ingrese su dirección aqui..."> <br><br>
+        <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A."> <br><br>
+        <br>
+        <label for="city">Correo electrónico: </label><input type="text" name="mail" 
+            placeholder="email"> <br><br>
+
+        <p>Seleccione el motivo: 
+            <input type="radio" name="consulta" value="hombre" checked> Consulta
+            <input type="radio" name="reclamo" value="Mujer"> Reclamo
+            <input type="radio" name="comentario" value="Otro"> Comentario
+        </p>
+        
+        <label for="estudios">Como nos conoce:</label>
+        <select id="estudios" name="estudios">
+            <option value="publicidad">Publicidad</option>
+            <option value="referencia">Referencia</option>
+            <option value="capacitaciones">Capacitaciones</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br><br>
+
+        <label for="comentarios">Deje su comentario:</label> <textarea name="comentarios" rows="10" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+    </form>
+</div>
+    <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+</body>
+
+</html>
