@@ -1,10 +1,10 @@
 /* Reseteo los estilos 
 de el navegador */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 body{
     background-color: rgb(137, 137, 137);
     padding: auto
