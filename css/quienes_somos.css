@@ -11,7 +11,7 @@ html {
     font-size: 18px;
 }
 
-.header {
+/* .header {
     background: rgb(86, 78, 78);
     color: rgb(35, 33, 33);
     height: 15px;
@@ -19,7 +19,7 @@ html {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-}
+} */
 
 .logo {
     text-transform: none;
@@ -110,10 +110,10 @@ html {
     color: #4a4545;
 }
 
-.map {
+/* .map {
     margin-top: 10px;
-    width: 60%;
-}
+    width: 60%; */
+/* } */
 
 @media screen and (min-width: 660px) and (max-width: 989px) {
     .body {
