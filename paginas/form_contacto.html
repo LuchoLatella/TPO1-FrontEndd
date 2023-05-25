@@ -11,6 +11,7 @@
 <body>
     <div>
     <h1>Formulario de Contacto - Grupo 15</h1>
+    <div>
     <form action="show_data.html" target="_blank">
         <label for="firstname">Nombre: </label><input size="50" type="text" name="firstname"
             placeholder="Ingrese su nombre aqui..."> <br><br>
@@ -36,13 +37,38 @@
         </select>
         <br><br>
 
+        <!-- <label for="comentarios">Deje su comentario:</label> <textarea name="comentarios" rows="10" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <button type="reset">Reset</button> -->
+    </form>
+    </div>
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form
+    action="https://formspree.io/f/xjvdejeg"
+    method="POST"
+    enctype="multipart/form-data"
+
         <label for="comentarios">Deje su comentario:</label> <textarea name="comentarios" rows="10" cols="30"></textarea>
         <br><br>
         <input type="submit" value="Enviar">
-        <button type="reset">Reset</button>
-    </form>
+        <button type="reset">Reset</button> -->
+>
+<!-- <label>
+  Correo Electrónico:
+  <input type="email" name="email">
+</label>
+<label>
+  Your file:
+  <input type="file" name="upload">
+</label>
+<button type="submit">Send</button> -->
+</form>
+    <div>
+
+    </div>
 </div>
-    <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+    <p>Al hacer click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
     <br>
     <a href="pagina.html">Regresar a la página principal</a>
 </body>
